@@ -1,0 +1,138 @@
+2024-12-31 01:38:02,710 Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2024-12-31 01:38:02,713 Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2024-12-31 01:38:04,590 Running on GPU
+2024-12-31 01:38:04,613 Found 5 citations for tools or databases
+2024-12-31 01:38:04,613 Query 1/1: Attn_Sso10a_24b59 (length 96)
+2024-12-31 01:38:06,755 Setting max_seq=512, max_extra_seq=4844
+2024-12-31 01:38:43,402 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=89.1 pTM=0.743
+2024-12-31 01:38:44,760 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=89.8 pTM=0.757 tol=0.812
+2024-12-31 01:38:46,118 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=91.6 pTM=0.781 tol=0.901
+2024-12-31 01:38:47,472 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=92 pTM=0.787 tol=0.154
+2024-12-31 01:38:47,475 alphafold2_ptm_model_1_seed_000 took 31.2s (3 recycles)
+2024-12-31 01:38:48,948 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=86.7 pTM=0.717
+2024-12-31 01:38:50,298 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=86.7 pTM=0.714 tol=0.0992
+2024-12-31 01:38:51,648 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=89.1 pTM=0.749 tol=0.0578
+2024-12-31 01:38:53,002 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=89 pTM=0.746 tol=0.0819
+2024-12-31 01:38:53,003 alphafold2_ptm_model_2_seed_000 took 5.4s (3 recycles)
+2024-12-31 01:38:54,477 alphafold2_ptm_model_3_seed_000 recycle=0 pLDDT=91.4 pTM=0.765
+2024-12-31 01:38:55,826 alphafold2_ptm_model_3_seed_000 recycle=1 pLDDT=91.7 pTM=0.768 tol=0.703
+2024-12-31 01:38:57,177 alphafold2_ptm_model_3_seed_000 recycle=2 pLDDT=91.9 pTM=0.772 tol=0.0871
+2024-12-31 01:38:58,529 alphafold2_ptm_model_3_seed_000 recycle=3 pLDDT=92.5 pTM=0.785 tol=0.0432
+2024-12-31 01:38:58,530 alphafold2_ptm_model_3_seed_000 took 5.4s (3 recycles)
+2024-12-31 01:38:59,989 alphafold2_ptm_model_4_seed_000 recycle=0 pLDDT=91.2 pTM=0.77
+2024-12-31 01:39:01,341 alphafold2_ptm_model_4_seed_000 recycle=1 pLDDT=91.2 pTM=0.774 tol=0.139
+2024-12-31 01:39:02,695 alphafold2_ptm_model_4_seed_000 recycle=2 pLDDT=92 pTM=0.789 tol=0.152
+2024-12-31 01:39:04,050 alphafold2_ptm_model_4_seed_000 recycle=3 pLDDT=92.2 pTM=0.791 tol=0.0592
+2024-12-31 01:39:04,051 alphafold2_ptm_model_4_seed_000 took 5.4s (3 recycles)
+2024-12-31 01:39:05,507 alphafold2_ptm_model_5_seed_000 recycle=0 pLDDT=89.5 pTM=0.738
+2024-12-31 01:39:06,857 alphafold2_ptm_model_5_seed_000 recycle=1 pLDDT=87.3 pTM=0.701 tol=0.202
+2024-12-31 01:39:08,206 alphafold2_ptm_model_5_seed_000 recycle=2 pLDDT=89.1 pTM=0.734 tol=0.136
+2024-12-31 01:39:09,565 alphafold2_ptm_model_5_seed_000 recycle=3 pLDDT=89.4 pTM=0.737 tol=0.172
+2024-12-31 01:39:09,566 alphafold2_ptm_model_5_seed_000 took 5.4s (3 recycles)
+2024-12-31 01:39:09,683 reranking models by 'plddt' metric
+2024-12-31 01:39:09,684 rank_001_alphafold2_ptm_model_3_seed_000 pLDDT=92.5 pTM=0.785
+2024-12-31 01:39:09,684 rank_002_alphafold2_ptm_model_4_seed_000 pLDDT=92.2 pTM=0.791
+2024-12-31 01:39:09,684 rank_003_alphafold2_ptm_model_1_seed_000 pLDDT=92 pTM=0.787
+2024-12-31 01:39:09,685 rank_004_alphafold2_ptm_model_5_seed_000 pLDDT=89.4 pTM=0.737
+2024-12-31 01:39:09,685 rank_005_alphafold2_ptm_model_2_seed_000 pLDDT=89 pTM=0.746
+2024-12-31 01:39:10,705 Done
+2024-12-31 01:42:24,114 Hydrogens were added to the structure. New structure is saved as PDB/addH_Sso10a.pdb.
+2024-12-31 01:42:24,280 3212 atoms and 1 coordinate set(s) were parsed in 0.03s.
+2024-12-31 01:42:24,402 Calculating interations.
+2024-12-31 01:42:24,473 Calculating hydrogen bonds.
+2024-12-31 01:42:24,764      DONOR (res chid atom)   <--->       ACCEPTOR (res chid atom)    Distance  Angle
+2024-12-31 01:42:24,765      SER21    A        OG_329  <--->      ALA16    A         O_266     2.4    30.8
+2024-12-31 01:42:24,766      TYR40    A         N_622  <--->      THR37    A         O_580     2.4    37.4
+2024-12-31 01:42:24,766      ARG77    A        N_1271  <--->      PHE73    A        O_1208     2.4    11.8
+2024-12-31 01:42:24,767      LYS84    A        N_1396  <--->      MET80    A        O_1334     2.4    14.7
+2024-12-31 01:42:24,768      ARG39    A         N_598  <--->      LEU36    A         O_561     2.4    23.8
+2024-12-31 01:42:24,769      LEU83    A        N_1377  <--->      ASN79    A        O_1320     2.5    14.1
+2024-12-31 01:42:24,769      ASP46    A         N_737  <--->      LYS42    A         O_665     2.7    17.5
+2024-12-31 01:42:24,770      MET58    A         N_944  <--->      ARG51    A         O_824     2.7     4.9
+2024-12-31 01:42:24,771      MET80    A        N_1331  <--->      MET76    A        O_1257     2.7    16.3
+2024-12-31 01:42:24,771      GLU75    A        N_1239  <--->      ARG71    A        O_1162     2.8    27.4
+2024-12-31 01:42:24,772      GLY29    A         N_466  <--->      ILE26    A         O_412     2.8    36.3
+2024-12-31 01:42:24,773      GLU53    A         N_862  <--->      GLN56    A         O_909     2.8    15.6
+2024-12-31 01:42:24,773      LEU47    A         N_749  <--->      MET43    A         O_687     2.8    35.9
+2024-12-31 01:42:24,774      GLN56    A         N_906  <--->      GLU53    A         O_865     2.8    39.9
+2024-12-31 01:42:24,775      LEU91    A        N_1515  <--->      ILE87    A        O_1458     2.8    29.7
+2024-12-31 01:42:24,775      GLU85    A        N_1418  <--->      ASP81    A        O_1351     2.8    15.4
+2024-12-31 01:42:24,776      GLU15    A         N_248  <--->      GLN11    A         O_186     2.8    16.4
+2024-12-31 01:42:24,776      GLN82    A        N_1360  <--->      LYS78    A        O_1298     2.8    23.8
+2024-12-31 01:42:24,777      THR37    A         N_577  <--->      SER33    A         O_519     2.8    32.2
+2024-12-31 01:42:24,778      ILE70    A        N_1140  <--->      LEU66    A        O_1078     2.8     4.6
+2024-12-31 01:42:24,778      LEU44    A         N_701  <--->      TYR40    A         O_625     2.8     7.6
+2024-12-31 01:42:24,779      SER21    A         N_324  <--->      TYR57    A         O_926     2.9    20.7
+2024-12-31 01:42:24,780      LEU14    A         N_229  <--->      ILE10    A         O_167     2.9    21.0
+2024-12-31 01:42:24,780      ALA16    A         N_263  <--->      ALA12    A         O_203     2.9    29.1
+2024-12-31 01:42:24,781      MET27    A         N_428  <--->      THR24    A         O_374     2.9    30.1
+2024-12-31 01:42:24,782      LEU67    A        N_1094  <--->      GLY63    A        O_1041     2.9    25.7
+2024-12-31 01:42:24,782      LYS42    A         N_662  <--->      GLY38    A         O_594     2.9    17.3
+2024-12-31 01:42:24,783      LYS18    A         N_284  <--->      GLU15    A         O_251     2.9    39.3
+2024-12-31 01:42:24,783      ASP81    A        N_1348  <--->      ARG77    A        O_1274     3.0    12.4
+2024-12-31 01:42:24,784      ALA12    A         N_200  <--->       GLU8    A         O_133     3.0    25.7
+2024-12-31 01:42:24,785      SER89    A        N_1488  <--->      GLU85    A        O_1421     3.0    31.0
+2024-12-31 01:42:24,785      GLU48    A         N_768  <--->      MET45    A         O_723     3.0    38.7
+2024-12-31 01:42:24,786      ILE87    A        N_1455  <--->      LEU83    A        O_1380     3.1    35.5
+2024-12-31 01:42:24,787      LYS72    A        N_1183  <--->      GLU68    A        O_1116     3.1    15.5
+2024-12-31 01:42:24,787      ARG71    A        N_1159  <--->      LEU67    A        O_1097     3.1    28.0
+2024-12-31 01:42:24,788      ASN74    A        N_1225  <--->      ILE70    A        O_1143     3.1    11.7
+2024-12-31 01:42:24,789      MET43    A         N_684  <--->      ARG39    A         O_601     3.1    37.0
+2024-12-31 01:42:24,789      GLY20    A         N_317  <--->      CYS17    A         O_276     3.1    15.3
+2024-12-31 01:42:24,790      GLU64    A        N_1045  <--->      THR60    A         O_983     3.1    19.8
+2024-12-31 01:42:24,790      ILE26    A         N_409  <--->      LYS23    A         O_352     3.1    37.2
+2024-12-31 01:42:24,791      CYS17    A         N_273  <--->      ILE13    A         O_213     3.1    32.4
+2024-12-31 01:42:24,792      LYS86    A        N_1433  <--->      GLN82    A        O_1363     3.2    34.1
+2024-12-31 01:42:24,792      ASP69    A        N_1128  <--->      GLU65    A        O_1063     3.2    19.7
+2024-12-31 01:42:24,793      LYS78    A        N_1295  <--->      ASN74    A        O_1228     3.2    19.8
+2024-12-31 01:42:24,794      PHE73    A        N_1205  <--->      ASP69    A        O_1131     3.2    15.5
+2024-12-31 01:42:24,794      GLU65    A        N_1060  <--->      LYS61    A         O_997     3.2    10.2
+2024-12-31 01:42:24,795      VAL90    A        N_1499  <--->      LYS86    A        O_1436     3.2    14.7
+2024-12-31 01:42:24,795      ASN88    A        N_1474  <--->      LYS84    A        O_1399     3.2    22.3
+2024-12-31 01:42:24,796      TYR57    A         N_923  <--->      SER21    A         O_327     3.2    29.0
+2024-12-31 01:42:24,797      GLN11    A         N_183  <--->       LEU7    A         O_114     3.2    22.9
+2024-12-31 01:42:24,797      ILE50    A         N_802  <--->      LEU44    A         O_704     3.2    24.3
+2024-12-31 01:42:24,798      GLU68    A        N_1113  <--->      GLU64    A        O_1048     3.2    17.6
+2024-12-31 01:42:24,799      ILE41    A         N_643  <--->      THR37    A         O_580     3.2    25.9
+2024-12-31 01:42:24,799      THR60    A         N_980  <--->      ILE49    A         O_786     3.2     5.2
+2024-12-31 01:42:24,800       GLU8    A         N_130  <--->       LYS3    A          O_37     3.4    39.1
+2024-12-31 01:42:24,801      ALA30    A         N_473  <--->      ILE26    A         O_412     3.4    35.7
+2024-12-31 01:42:24,801      GLY38    A         N_591  <--->      TYR34    A         O_530     3.5    17.2
+2024-12-31 01:42:24,802      LYS62    A        N_1016  <--->      THR60    A       OG1_985     3.5    28.6
+2024-12-31 01:42:24,802      THR60    A       OG1_985  <--->      LYS62    A        N_1016     3.5    25.0
+2024-12-31 01:42:24,803 Number of detected hydrogen bonds: 59.
+2024-12-31 01:42:24,888 Calculating salt bridges.
+2024-12-31 01:42:24,912      ASP46    A     OD1_743_744  <--->      LYS42    A          NZ_670     2.9
+2024-12-31 01:42:24,913      GLU75    A   OE1_1246_1247  <--->      ARG71    A   NH1_1168_1169     4.1
+2024-12-31 01:42:24,913 Number of detected salt bridges: 2.
+2024-12-31 01:42:24,934 Calculating repulsive ionic bonding.
+2024-12-31 01:42:24,954 Number of detected Repulsive Ionic Bonding interactions: 0.
+2024-12-31 01:42:24,956 Calculating Pi stacking interactions.
+2024-12-31 01:42:30,338 Number of detected Pi stacking interactions: 0.
+2024-12-31 01:42:30,343 Calculating cation-Pi interactions.
+2024-12-31 01:42:30,476 Number of detected cation-pi interactions: 0.
+2024-12-31 01:42:30,560 Hydrophobic Overlapping Areas are computed.
+2024-12-31 01:42:30,562 Calculating hydrophobic interactions.
+2024-12-31 01:42:36,083      MET45    A        SD_72614s  <--->      ILE50    A       CG2_808     3.4    27.3
+2024-12-31 01:42:36,084      TYR57    A       CE1_93114s  <--->      MET45    A        CE_727     3.5    15.3
+2024-12-31 01:42:36,085      LEU44    A       CD1_70714s  <--->      ILE13    A       CG2_216     3.5    11.0
+2024-12-31 01:42:36,086      LEU32    A       CD2_50414s  <--->      ILE26    A       CG2_415     3.5    17.3
+2024-12-31 01:42:36,087      MET58    A        CG_94914s  <--->      LEU59    A       CD2_968     3.6    57.8
+2024-12-31 01:42:36,088      TYR40    A       CE2_63114s  <--->       ILE9    A       CG2_151     3.6    18.7
+2024-12-31 01:42:36,088      LYS23    A        CG_35414s  <--->      ILE41    A       CD1_650     3.6    12.8
+2024-12-31 01:42:36,089      ILE49    A       CG2_78914s  <--->      LEU14    A       CD2_236     3.7    25.7
+2024-12-31 01:42:36,089      ALA16    A        CB_26714s  <--->      ILE26    A       CG1_414     3.8    15.5
+2024-12-31 01:42:36,090      PHE73    A      CE1_121314s  <--->      ARG77    A       CG_1276     3.8    49.4
+2024-12-31 01:42:36,091      TYR34    A       CE1_53514s  <--->      ALA35    A        CB_552     3.8    64.6
+2024-12-31 01:42:36,091      ILE10    A       CG1_16914s  <--->      TYR40    A       CD2_629     3.8    15.9
+2024-12-31 01:42:36,092      ALA30    A        CB_47714s  <--->       ILE9    A       CD1_152     3.8    15.4
+2024-12-31 01:42:36,092      ARG94    A       CG_156914s  <--->      ILE93    A      CG2_1551     3.9    65.3
+2024-12-31 01:42:36,093      MET43    A        CE_69114s  <--->      LEU47    A       CD2_756     3.9    32.6
+2024-12-31 01:42:36,094      ILE70    A      CG1_114514s  <--->      LEU66    A      CD1_1081     3.9    30.5
+2024-12-31 01:42:36,095       LYS4    A         CD_6214s  <--->       ILE9    A       CD1_152     4.0    23.5
+2024-12-31 01:42:36,095      LEU36    A       CD2_56514s  <--->      ARG39    A        CG_603     4.2    40.5
+2024-12-31 01:42:36,096      MET80    A       CE_133814s  <--->      LYS84    A       CD_1402     4.3    37.9
+2024-12-31 01:42:36,096 Number of detected hydrophobic interactions: 19.
+2024-12-31 01:42:36,098 Calculating disulfide bonds.
+2024-12-31 01:42:36,107 Number of detected disulfide bonds: 0.
+2024-12-31 01:42:36,250 Calculating interaction energies matrix with type IB_nosolv

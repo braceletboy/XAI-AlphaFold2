@@ -1,0 +1,98 @@
+Metadata-Version: 1.1
+Name: ProDy
+Version: 2.5.0
+Summary: A Python Package for Protein Dynamics Analysis
+Home-page: http://www.csb.pitt.edu/ProDy
+Author: James Krieger, She Zhang, Hongchun Li, Cihan Kaya, Ahmet Bakan, and others
+Author-email: kriegerj@pitt.edu
+License: MIT License
+Description: .. image:: https://secure.travis-ci.org/prody/ProDy.png?branch=master
+           :target: http://travis-ci.org/#!/prody/ProDy
+        
+        .. image:: https://pypip.in/v/ProDy/badge.png
+           :target: https://pypi.python.org/pypi/ProDy
+        
+        .. image:: https://pypip.in/d/ProDy/badge.png
+           :target: https://crate.io/packages/ProDy/
+        
+        SYNOPSIS
+        --------
+        
+        ProDy is a free and open-source Python package for protein structure, dynamics,
+        and sequence analysis.  It allows for comparative analysis and modeling of
+        protein structural dynamics and sequence co-evolution.  Fast and flexible ProDy
+        API is for interactive usage as well as application development.  ProDy also
+        comes with several analysis applications and a graphical user interface for
+        visual analysis.
+        
+        
+        GETTING PRODY
+        -------------
+        
+        You can run ProDy on all major platforms.  For download and installation
+        instructions see:
+        
+        * http://www.bahargroup.org/prody/downloads
+        
+        
+        DOCUMENTATION
+        -------------
+        
+        * Homepage: http://www.bahargroup.org/prody/
+        
+        * Tutorials: http://www.bahargroup.org/prody/tutorials
+        
+        * Reference: http://www.bahargroup.org/prody/manual
+        
+        * Applications: http://www.bahargroup.org/prody/manual/apps
+        
+        * NMWiz GUI: http://www.bahargroup.org/prody/nmwiz
+        
+        * Changes: http://www.bahargroup.org/prody/manual/release
+        
+        
+        SOURCE CODE
+        -----------
+        
+        * Source code: https://github.com/prody/ProDy
+        
+        * Issue tracker: https://github.com/prody/ProDy/issues
+        
+        
+        LICENSE
+        -------
+        
+        ProDy is available under MIT License. See LICENSE.txt for more details.
+        
+        Biopython (http://biopython.org/) KDTree and TreeConstruction modules are distributed
+        with ProDy. Biopython is developed by The Biopython Consortium and is available
+        under the Biopython license (http://www.biopython.org/DIST/LICENSE).
+        
+        Pyparsing (https://github.com/pyparsing/pyparsing) module is distributed with ProDy.
+        Pyparsing is developed by Paul T. McGuire and is available under the MIT
+        license (http://www.opensource.org/licenses/mit-license.php).
+        
+        CEalign module (https://pymolwiki.org/index.php/Cealign_plugin) is distributed 
+        with ProDy. The original CE method was developed by Ilya Shindyalov and Philip 
+        Bourne. The Python version which is used by ProDy is developed by Jason Vertrees 
+        and available under the New BSD license. 
+        
+Keywords: protein,dynamics,elastic network model,Gaussian network model,anisotropic network model,essential dynamics analysis,principal component analysis,Protein Data Bank,PDB,GNM,ANM,PCA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires: numpy (>=1.10)
+Requires: pyparsing (<=3.1.1)
+Requires: biopython
+Requires: scipy
+Provides: prody

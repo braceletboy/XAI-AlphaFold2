@@ -1,0 +1,45 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+jax = {extras = ["cuda12"], version = "*"}
+jupyterlab-code-formatter = "*"
+black = "*"
+isort = "*"
+jupyterlab-lsp = "*"
+python-lsp-server = {extras = ["all"], version = "*"}
+python-lsp-isort = "*"
+python-lsp-black = "*"
+pyls-memestra = "*"
+ipympl = "*"
+ipywidgets = "*"
+ipydatagrid = "*"
+jupyterlab-execute-time = "*"
+pyqt5 = "*"
+qtconsole = "*"
+nodejs-wheel = "*"
+jupyterlab-cell-flash = "*"
+jupyterlab-indent-guides = "*"
+jupyterlab-horizon-theme = "*"
+jupyterlab-rainbow-brackets = "*"
+jupyterlab-accessible-themes = "*"
+catppuccin-jupyterlab = "*"
+rose-pine-jupyterlab = "*"
+jupyterlab-whitepaper = "*"
+jupyter-fs = "*"
+jupyterlab-git = "*"
+jupyterlab-unfold = "*"
+flax = "*"
+pypdf = "*"
+gputil = "*"
+seaborn = "*"
+openmm = {extras = ["cuda12"], version = "*"}
+numpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,74 @@
+2024-12-31 01:31:13,549 Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2024-12-31 01:31:13,554 Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2024-12-31 01:31:15,907 Running on GPU
+2024-12-31 01:31:15,931 Found 5 citations for tools or databases
+2024-12-31 01:31:15,931 Query 1/1: Attn_PP_0cd55 (length 36)
+2024-12-31 01:31:17,494 Setting max_seq=512, max_extra_seq=375
+2024-12-31 01:31:51,080 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=86.9 pTM=0.54
+2024-12-31 01:31:51,739 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=85.6 pTM=0.525 tol=0.435
+2024-12-31 01:31:52,397 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=86.6 pTM=0.535 tol=0.21
+2024-12-31 01:31:53,056 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=87.1 pTM=0.538 tol=0.049
+2024-12-31 01:31:53,056 alphafold2_ptm_model_1_seed_000 took 25.7s (3 recycles)
+2024-12-31 01:31:53,783 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=87.3 pTM=0.563
+2024-12-31 01:31:54,441 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=86.9 pTM=0.554 tol=0.306
+2024-12-31 01:31:55,100 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=86.8 pTM=0.547 tol=0.147
+2024-12-31 01:31:55,758 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=88.1 pTM=0.567 tol=0.0792
+2024-12-31 01:31:55,759 alphafold2_ptm_model_2_seed_000 took 2.6s (3 recycles)
+2024-12-31 01:31:56,483 alphafold2_ptm_model_3_seed_000 recycle=0 pLDDT=89.9 pTM=0.58
+2024-12-31 01:31:57,142 alphafold2_ptm_model_3_seed_000 recycle=1 pLDDT=89.6 pTM=0.569 tol=0.138
+2024-12-31 01:31:57,801 alphafold2_ptm_model_3_seed_000 recycle=2 pLDDT=90.9 pTM=0.593 tol=0.135
+2024-12-31 01:31:58,460 alphafold2_ptm_model_3_seed_000 recycle=3 pLDDT=91.1 pTM=0.591 tol=0.0345
+2024-12-31 01:31:58,461 alphafold2_ptm_model_3_seed_000 took 2.6s (3 recycles)
+2024-12-31 01:31:59,185 alphafold2_ptm_model_4_seed_000 recycle=0 pLDDT=88.1 pTM=0.561
+2024-12-31 01:31:59,844 alphafold2_ptm_model_4_seed_000 recycle=1 pLDDT=88.6 pTM=0.563 tol=0.208
+2024-12-31 01:32:00,504 alphafold2_ptm_model_4_seed_000 recycle=2 pLDDT=90.3 pTM=0.592 tol=0.169
+2024-12-31 01:32:01,163 alphafold2_ptm_model_4_seed_000 recycle=3 pLDDT=90.7 pTM=0.595 tol=0.0514
+2024-12-31 01:32:01,164 alphafold2_ptm_model_4_seed_000 took 2.6s (3 recycles)
+2024-12-31 01:32:01,888 alphafold2_ptm_model_5_seed_000 recycle=0 pLDDT=86.2 pTM=0.533
+2024-12-31 01:32:02,547 alphafold2_ptm_model_5_seed_000 recycle=1 pLDDT=85.7 pTM=0.536 tol=0.174
+2024-12-31 01:32:03,207 alphafold2_ptm_model_5_seed_000 recycle=2 pLDDT=86.9 pTM=0.558 tol=0.316
+2024-12-31 01:32:03,866 alphafold2_ptm_model_5_seed_000 recycle=3 pLDDT=87.2 pTM=0.558 tol=0.0895
+2024-12-31 01:32:03,867 alphafold2_ptm_model_5_seed_000 took 2.6s (3 recycles)
+2024-12-31 01:32:03,934 reranking models by 'plddt' metric
+2024-12-31 01:32:03,934 rank_001_alphafold2_ptm_model_3_seed_000 pLDDT=91.1 pTM=0.591
+2024-12-31 01:32:03,934 rank_002_alphafold2_ptm_model_4_seed_000 pLDDT=90.7 pTM=0.595
+2024-12-31 01:32:03,935 rank_003_alphafold2_ptm_model_2_seed_000 pLDDT=88.1 pTM=0.567
+2024-12-31 01:32:03,935 rank_004_alphafold2_ptm_model_5_seed_000 pLDDT=87.2 pTM=0.558
+2024-12-31 01:32:03,935 rank_005_alphafold2_ptm_model_1_seed_000 pLDDT=87.1 pTM=0.538
+2024-12-31 01:32:04,905 Done
+2024-12-31 01:35:49,070 Hydrogens were added to the structure. New structure is saved as PDB/addH_PP.pdb.
+2024-12-31 01:35:49,167 582 atoms and 1 coordinate set(s) were parsed in 0.01s.
+2024-12-31 01:35:49,291 Calculating interations.
+2024-12-31 01:35:49,318 Calculating hydrogen bonds.
+2024-12-31 01:35:49,367      DONOR (res chid atom)   <--->       ACCEPTOR (res chid atom)    Distance  Angle
+2024-12-31 01:35:49,368      TYR21    A         N_294  <--->      LEU17    A         O_217     3.0    30.7
+2024-12-31 01:35:49,369      ASP22    A         N_315  <--->      ILE18    A         O_236     3.0    28.1
+2024-12-31 01:35:49,370      ASN23    A         N_327  <--->      ARG19    A         O_255     3.0    25.3
+2024-12-31 01:35:49,370      LEU17    A         N_212  <--->      PRO13    A         O_159     3.0    33.9
+2024-12-31 01:35:49,371      PHE20    A         N_274  <--->      ASP16    A         O_205     3.1    38.4
+2024-12-31 01:35:49,372      VAL30    A         N_448  <--->      GLN26    A         O_382     3.2     9.8
+2024-12-31 01:35:49,372      GLN26    A         N_377  <--->      ASP22    A         O_320     3.2    26.0
+2024-12-31 01:35:49,373      LEU24    A         N_341  <--->      TYR21    A         O_299     3.2    39.0
+2024-12-31 01:35:49,373      LEU28    A         N_415  <--->      GLN25    A         O_365     3.3    39.5
+2024-12-31 01:35:49,374 Number of detected hydrogen bonds: 9.
+2024-12-31 01:35:49,455 Calculating salt bridges.
+2024-12-31 01:35:49,463      GLU15    A     OE1_198_199  <--->      ARG19    A     NH1_268_271     3.8
+2024-12-31 01:35:49,464 Number of detected salt bridges: 1.
+2024-12-31 01:35:49,483 Calculating repulsive ionic bonding.
+2024-12-31 01:35:49,489 Number of detected Repulsive Ionic Bonding interactions: 0.
+2024-12-31 01:35:49,491 Calculating Pi stacking interactions.
+2024-12-31 01:35:54,516      HIS34       A             527_528_530_532_534  <--->      TYR36       A     568_569_571_573_575_577_580     4.4   137.1
+2024-12-31 01:35:54,518 Number of detected Pi stacking interactions: 1.
+2024-12-31 01:35:54,521 Calculating cation-Pi interactions.
+2024-12-31 01:35:54,672 Number of detected cation-pi interactions: 0.
+2024-12-31 01:35:54,718 Hydrophobic Overlapping Areas are computed.
+2024-12-31 01:35:54,719 Calculating hydrophobic interactions.
+2024-12-31 01:35:56,268      VAL31    A       CG2_47614s  <--->      TYR27    A        CZ_412     3.6    38.4
+2024-12-31 01:35:56,269      ILE18    A       CD1_24614s  <--->      VAL14    A       CG1_177     4.1    34.8
+2024-12-31 01:35:56,270      PHE20    A       CE1_28814s  <--->      LEU24    A       CD2_356     4.1    29.4
+2024-12-31 01:35:56,271       TYR7    A        CE1_9314s  <--->      LEU17    A       CD2_227     4.3     7.7
+2024-12-31 01:35:56,271      ALA12    A        CB_15114s  <--->      LEU17    A        CG_221     4.5    20.7
+2024-12-31 01:35:56,273 Number of detected hydrophobic interactions: 5.
+2024-12-31 01:35:56,274 Lack of cysteines in the structure.
+2024-12-31 01:35:56,274 Number of detected disulfide bonds: 0.
+2024-12-31 01:35:56,433 Calculating interaction energies matrix with type IB_nosolv
